@@ -1,0 +1,59 @@
+.youtube-popup-widget {
+    width: 300px;
+
+    &__title {
+        font-size: 1.125rem;
+        color: #4f4f4fff;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    &__block-img {
+        position: relative;
+    }
+
+    &__link {
+        display: block;
+        background-color: #2d2d2d;
+        padding-bottom: 4px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.5;
+
+        &:active,
+        &:hover {
+            color: $linkColor;
+        }
+    }
+
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__svg {
+        position: absolute;
+        width: 50px;
+        top: 50%;
+        left: 50%;
+        transition: all .4s;
+        transform: translate(-50%, -50%);
+    }
+
+    &__link:active &__svg,
+    &__link:hover &__svg {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+
+    &__name-video {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 1rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+}
