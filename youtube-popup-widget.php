@@ -2,12 +2,11 @@
 /**
  * Plugin Name: Youtube popup widget
  * Description: Add card with youtube video info and play this video in popup.
- * Plugin URI:  https://github.com/ValikPavlenko
+ * Plugin URI:  https://github.com/ValikPavlenko/wp-plugin-youtube-popup-widget
  * Author URI:  http://valik.pavlenko.org.ua/
  * Author:      Valik Pavlenko
  * Version:     1.0
  *
- * Requires at least: 2.5
  * Requires PHP: 7.4
  *
  */
