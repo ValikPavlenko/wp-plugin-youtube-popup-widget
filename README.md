@@ -1,6 +1,6 @@
 ## Widget to create popup youTube
 
-Працює з `Gutenberg`.
+Works with `Gutenberg`.
 
 ## Example of widget completion:
 
